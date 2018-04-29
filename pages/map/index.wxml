@@ -1,0 +1,39 @@
+<!--pages/map/map.wxml-->
+<view style="width: 100%;" class='contianer'>
+
+  <scroll-view scroll-x="true" scroll-with-animation="true">
+    <view class="top-swich" style="width:{{buildlData.length * 120 < windowWidth ? windowWidth: buildlData.length * 120}}rpx;" wx:if="{{!fullscreen}}">
+      <label wx:for="{{buildlData}}" wx:key="id" id="{{index}}" bindtap="changePage" class="top-swich-btn {{isSelectedBuildType == index ? 'active' : ''}}">{{item.name}}
+      </label><!-- 顶部滑动标签文字 -->
+    </view><!-- 顶部滑动标签 -->
+  </scroll-view><!-- 滑动功能 -->
+
+  <map longitude="{{longitude}}" latitude="{{latitude}}" scale="{{buildlData[isSelectedBuildType].scale+2}}" bindcontroltap="controltap" markers="{{buildlData[isSelectedBuildType].data}}" bindmarkertap="markertap" bindregionchange="regionchange" include-points="{{buildlData[isSelectedBuildType].data}}"
+    show-location="{{islocation? 'true': 'false'}}" controls="{{controls}}" style="width: auto; height:{{fullscreen ? 94 : 48}}vh;">
+  </map><!-- 地图 -->
+
+  <button bindtap="clickButton">
+    共有{{buildlData[isSelectedBuildType].data.length}}个景观 ◕‿◕
+  </button> <!-- 分割线 -->
+
+  <scroll-view scroll-y="true" style="height:{{fullscreen ? 0 : 40}}vh" scroll-top="{{(isSelectedBuild -1 ) * 70}}">
+    <view wx:for="{{buildlData[isSelectedBuildType].data}}" wx:key="id" class="building-item" style="{{isSelectedBuild -1 == index ? 'background-color: #d5d5d5;' : ''}}">
+      <view class="img-view">
+        <navigator class="img" url='details?tid={{isSelectedBuildType}}&bid={{index}}'>
+          <image src="{{imgCDN}}{{item.img[0] + '?imageView2/1/w/240/h/180/q/100|imageslim'}}" mode="aspectFill"> </image>
+          <view class="item">
+            <view class="itemName">
+              {{item.name}}
+            </view><!-- 标签主文字-->
+            <view class="itemFloor" wx:if="{{item.floor}}">
+              位置：{{item.floor}}
+            </view><!-- 标签附属文字 -->
+          </view><!-- 文字item -->
+        </navigator><!-- 图片+文字 -->
+        <navigator class="text" url='polyline?latitude={{item.latitude}}&longitude={{item.longitude}}'>
+          <image src="/img/location.svg"> </image>
+        </navigator> <!-- 路线规划入口 -->
+      </view><!-- 单行view -->
+    </view> <!-- 所有行view -->
+  </scroll-view><!-- 下方滑动 -->
+</view><!-- 页面 -->

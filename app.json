@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/map/index",
+    "pages/map/details",
+    "pages/map/polyline",
+    "pages/map/search"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#274e13",
+    "navigationBarTitleText": "校园导览",
+    "navigationBarTextStyle": "white"
+  }
+}
