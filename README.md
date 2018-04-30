@@ -1,7 +1,7 @@
 导览 - 微信地图导览小程序
 ===
 第一款开源的微信地图导览小程序，仅需修改地图文件，就可以适配某一学校/景区，具有出色的用户体验。
-官网：http://www.gxgk.cc
+
 
 **特性** 
 
@@ -9,26 +9,6 @@
 - [x] 地图路径规划
 - [x] 在线热修补
 
----
-
-## 开源许可证 License AGPLv3
- 
-请认真阅读并遵守以下开源协议
-
-`AGPLv3` [GNU Affero General Public License v3.0](https://github.com/gxgk/map/blob/master/LICENSE)
-
-欢迎 pull request and star
-
-该项目所有图片均有版权，禁止盗用，包含首页背景
-
-此外，代码仅作学习微信小程序所用，禁止私用，违者必究
-
----
-
-## 预览
-
-![导览](https://qn.gxgk.cc/%E6%A0%A1%E5%9B%AD%E5%AF%BC%E8%A7%88/Screenshot.jpg)
-![二维码](https://qn.gxgk.cc/%E6%A0%A1%E5%9B%AD%E5%AF%BC%E8%A7%88/qrcode.jpg)
 
 ---
 ## 使用说明
@@ -66,6 +46,3 @@ module.exports.map = [{}]
 ``` 
 
 ---
-
-
-> @ 广东科技学院 - 莞香广科团队 http://www.gxgk.cc
