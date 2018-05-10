@@ -31,7 +31,7 @@
           </view><!-- 文字item -->
         </navigator><!-- 图片+文字 -->
         <navigator class="text" url='polyline?latitude={{item.latitude}}&longitude={{item.longitude}}'>
-          <image src="/img/location.svg"> </image>
+          <image src="/img/location2.png"> </image>
         </navigator> <!-- 路线规划入口 -->
       </view><!-- 单行view -->
     </view> <!-- 所有行view -->
