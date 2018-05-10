@@ -20,9 +20,9 @@ module.exports.map = [
         "name": "桂苑餐厅",
         "latitude": "30.674232",
         "longitude": "104.096991",
-        "iconPath": "/img/ico/jd.png",
-        "width": "30",
-        "height": "30",
+        "iconPath": "/img/ico/SDinn2.png",
+        "width": "40",
+        "height": "40",
         "img": [
           "miniImage/风华餐厅.png"
         ],
@@ -32,9 +32,9 @@ module.exports.map = [
         "name": "阳光餐厅",
         "latitude": "30.67689",
         "longitude": "104.100172",
-        "iconPath": "/img/ico/jd.png",
-        "width": "30",
-        "height": "30",
+        "iconPath": "/img/ico/SDinn2.png",
+        "width": "40",
+        "height": "40",
         "img": [
           "miniImage/阳光.png"
         ],
@@ -45,9 +45,9 @@ module.exports.map = [
         "floor": "2楼",
         "latitude": "30.676899",
         "longitude": "104.100199",
-        "iconPath": "/img/ico/jd.png",
-        "width": "30",
-        "height": "30",
+        "iconPath": "/img/ico/SDinn2.png",
+        "width": "40",
+        "height": "40",
         "img": [
           "miniImage/学生活动中心.png",
           "miniImage/学生活动中心2.png"
@@ -58,9 +58,9 @@ module.exports.map = [
         "name": "风华餐厅",
         "latitude": "30.677074",
         "longitude": "104.100172",
-        "iconPath": "/img/ico/jd.png",
-        "width": "30",
-        "height": "30",
+        "iconPath": "/img/ico/SDinn2.png",
+        "width": "40",
+        "height": "40",
         "img": [
           "miniImage/阳光.png"
         ],
@@ -71,9 +71,9 @@ module.exports.map = [
         "floor": "2楼",
         "latitude": "30.67701",
         "longitude": "104.100746",
-        "iconPath": "/img/ico/jd.png",
-        "width": "30",
-        "height": "30",
+        "iconPath": "/img/ico/SDinn2.png",
+        "width": "40",
+        "height": "40",
         "img": [
           "miniImage/阳光.png"
         ],
@@ -83,9 +83,9 @@ module.exports.map = [
         "name": "风华清真",
         "latitude": "30.676987",
         "longitude": "104.101626",
-        "iconPath": "/img/ico/jd.png",
-        "width": "30",
-        "height": "30",
+        "iconPath": "/img/ico/SDinn2.png",
+        "width": "40",
+        "height": "40",
         "img": [
           "miniImage/阳光.png"
         ],
@@ -102,8 +102,8 @@ module.exports.map = [
         "latitude": "30.674034",
         "longitude": "104.102779",
         "iconPath": "/img/ico/jxl.png",
-        "width": "30",
-        "height": "30",
+        "width": "40",
+        "height": "40",
         "img": [
           "miniImage/一教.png"
         ],
@@ -114,8 +114,8 @@ module.exports.map = [
         "latitude": "30.674527",
         "longitude": "104.102736",
         "iconPath": "/img/ico/jxl.png",
-        "width": "30",
-        "height": "30",
+        "width": "40",
+        "height": "40",
         "img": [
           "miniImage/二教.png"
         ],
@@ -126,8 +126,8 @@ module.exports.map = [
         "latitude": "30.675861",
         "longitude": "104.10309",
         "iconPath": "/img/ico/jxl.png",
-        "width": "30",
-        "height": "30",
+        "width": "40",
+        "height": "40",
         "img": [
           "miniImage/三教.png",
           "miniImage/三教2.png"
@@ -139,8 +139,8 @@ module.exports.map = [
         "latitude": "30.675427",
         "longitude": "104.09955",
         "iconPath": "/img/ico/jxl.png",
-        "width": "30",
-        "height": "30",
+        "width": "40",
+        "height": "40",
         "img": [
           "miniImage/阳光.png"
         ],
@@ -151,8 +151,8 @@ module.exports.map = [
         "latitude": "30.675233",
         "longitude": "104.103112",
         "iconPath": "/img/ico/jxl.png",
-        "width": "30",
-        "height": "30",
+        "width": "40",
+        "height": "40",
         "img": [
           "miniImage/逸夫楼.png"
         ],
@@ -168,9 +168,9 @@ module.exports.map = [
         "name": "主楼",
         "latitude": "30.674108",
         "longitude": "104.101143",
-        "iconPath": "/img/ico/xm.png",
-        "width": "30",
-        "height": "30",
+        "iconPath": "/img/ico/STour.png",
+        "width": "40",
+        "height": "40",
         "img": [
           "miniImage/主楼.png",
           "miniImage/主楼2.png"
@@ -181,9 +181,9 @@ module.exports.map = [
         "name": "图书馆",
         "latitude": "30.673725",
         "longitude": "104.09926",
-        "iconPath": "/img/ico/xm.png",
-        "width": "30",
-        "height": "30",
+        "iconPath": "/img/ico/STour.png",
+        "width": "40",
+        "height": "40",
         "img": [
           "校园导览/校门/东门.jpg"
         ],
@@ -193,9 +193,9 @@ module.exports.map = [
         "name": "学生公寓11号楼",
         "latitude": "30.678128",
         "longitude": "104.098546",
-        "iconPath": "/img/ico/girl_ss.png",
-        "width": "30",
-        "height": "30",
+        "iconPath": "/img/ico/SDorm.png",
+        "width": "40",
+        "height": "40",
         "img": [
           "miniImage/游泳中心.png"
         ],
@@ -212,8 +212,8 @@ module.exports.map = [
         "latitude": "30.675792",
         "longitude": "104.099405",
         "iconPath": "/img/ico/xyfu.png",
-        "width": "30",
-        "height": "30",
+        "width": "40",
+        "height": "40",
         "img": [
           "校园导览/创业楼/广科招生办301.jpg"
         ],
@@ -224,8 +224,8 @@ module.exports.map = [
         "latitude": "30.67612",
         "longitude": "104.100805",
         "iconPath": "/img/ico/xyfu.png",
-        "width": "30",
-        "height": "30",
+        "width": "40",
+        "height": "40",
         "img": [
           "miniImage/通信楼1.png",
           "miniImage/通信楼2.png"
@@ -237,8 +237,8 @@ module.exports.map = [
         "latitude": "30.674029",
         "longitude": "104.096776",
         "iconPath": "/img/ico/xyfu.png",
-        "width": "30",
-        "height": "30",
+        "width": "40",
+        "height": "40",
         "img": [
           "miniImage/继续教育学院.png"
         ],
@@ -249,8 +249,8 @@ module.exports.map = [
         "latitude": "30.675252",
         "longitude": "104.101207",
         "iconPath": "/img/ico/xyfu.png",
-        "width": "30",
-        "height": "30",
+        "width": "40",
+        "height": "40",
         "img": [
           "miniImage/微固.png"
         ],
@@ -261,8 +261,8 @@ module.exports.map = [
         "latitude": "30.674906",
         "longitude": "104.100027",
         "iconPath": "/img/ico/xyfu.png",
-        "width": "30",
-        "height": "30",
+        "width": "40",
+        "height": "40",
         "img": [
           "miniImage/继续教育学院.png"
         ],
@@ -273,8 +273,8 @@ module.exports.map = [
         "latitude": "30.675722",
         "longitude": "104.102366",
         "iconPath": "/img/ico/xyfu.png",
-        "width": "30",
-        "height": "30",
+        "width": "40",
+        "height": "40",
         "img": [
           "miniImage/物理学院.png",
           "miniImage/物理学院2.png"
@@ -286,8 +286,8 @@ module.exports.map = [
         "latitude": "30.676396",
         "longitude": "104.102409",
         "iconPath": "/img/ico/xyfu.png",
-        "width": "30",
-        "height": "30",
+        "width": "40",
+        "height": "40",
         "img": [
           "miniImage/信软楼.png",
           "miniImage/信软楼2.png"
@@ -304,9 +304,9 @@ module.exports.map = [
         "name": "体育馆",
         "latitude": "30.675076",
         "longitude": "104.097801",
-        "iconPath": "/img/ico/xyfu.png",
-        "width": "30",
-        "height": "30",
+        "iconPath": "/img/ico/SGym.png",
+        "width": "40",
+        "height": "40",
         "img": [
           "miniImage/信软楼.png"
         ],
@@ -316,9 +316,9 @@ module.exports.map = [
         "name": "足球场",
         "latitude": "30.675109",
         "longitude": "104.098402",
-        "iconPath": "/img/ico/xyfu.png",
-        "width": "30",
-        "height": "30",
+        "iconPath": "/img/ico/SGym.png",
+        "width": "40",
+        "height": "40",
         "img": [
           "miniImage/信软楼.png"
         ],
@@ -328,9 +328,9 @@ module.exports.map = [
         "name": "网球场",
         "latitude": "30.677725",
         "longitude": "104.098074",
-        "iconPath": "/img/ico/xyfu.png",
-        "width": "30",
-        "height": "30",
+        "iconPath": "/img/ico/SGym.png",
+        "width": "40",
+        "height": "40",
         "img": [
           "miniImage/网球场.png"
         ],
@@ -340,9 +340,9 @@ module.exports.map = [
         "name": "篮球场",
         "latitude": "30.676331",
         "longitude": "104.099721",
-        "iconPath": "/img/ico/xyfu.png",
-        "width": "30",
-        "height": "30",
+        "iconPath": "/img/ico/SGym.png",
+        "width": "40",
+        "height": "40",
         "img": [
           "miniImage/篮球场.png"
         ],
@@ -352,9 +352,9 @@ module.exports.map = [
         "name": "游泳池",
         "latitude": "30.677268",
         "longitude": "104.09749",
-        "iconPath": "/img/ico/xyfu.png",
-        "width": "30",
-        "height": "30",
+        "iconPath": "/img/ico/SGym.png",
+        "width": "40",
+        "height": "40",
         "img": [
           "miniImage/游泳中心.png",
           "miniImage/游泳中心2.png",
@@ -372,7 +372,7 @@ module.exports.map = [
         "name": "欣苑1栋",
         "latitude": "30.674317",
         "longitude": "104.096041",
-        "iconPath": "/img/ico/boy_ss.png",
+        "iconPath": "/img/ico/ss.png",
         "width": "30",
         "height": "30",
         "img": [
@@ -385,7 +385,7 @@ module.exports.map = [
         "name": "欣苑2栋",
         "latitude": "30.674576",
         "longitude": "104.095988",
-        "iconPath": "/img/ico/boy_ss.png",
+        "iconPath": "/img/ico/ss.png",
         "width": "30",
         "height": "30",
         "img": [
@@ -397,7 +397,7 @@ module.exports.map = [
         "name": "欣苑3栋",
         "latitude": "30.674756",
         "longitude": "104.095714",
-        "iconPath": "/img/ico/boy_ss.png",
+        "iconPath": "/img/ico/ss.png",
         "width": "30",
         "height": "30",
         "img": [
@@ -410,7 +410,7 @@ module.exports.map = [
         "name": "欣苑4栋",
         "latitude": "30.675259",
         "longitude": "104.095719",
-        "iconPath": "/img/ico/boy_ss.png",
+        "iconPath": "/img/ico/ss.png",
         "width": "30",
         "height": "30",
         "img": [
@@ -423,7 +423,7 @@ module.exports.map = [
         "name": "欣苑5栋",
         "latitude": "30.674682",
         "longitude": "104.096524",
-        "iconPath": "/img/ico/boy_ss.png",
+        "iconPath": "/img/ico/ss.png",
         "width": "30",
         "height": "30",
         "img": [
@@ -436,7 +436,7 @@ module.exports.map = [
         "name": "欣苑6栋",
         "latitude": "30.673736",
         "longitude": "104.09625",
-        "iconPath": "/img/ico/girl_ss.png",
+        "iconPath": "/img/ico/ss.png",
         "width": "30",
         "height": "30",
         "img": [
@@ -448,7 +448,7 @@ module.exports.map = [
         "name": "学生公寓11号楼",
         "latitude": "30.678128",
         "longitude": "104.098546",
-        "iconPath": "/img/ico/girl_ss.png",
+        "iconPath": "/img/ico/ss.png",
         "width": "30",
         "height": "30",
         "img": [
@@ -460,7 +460,7 @@ module.exports.map = [
         "name": "学生公寓12号楼",
         "latitude": "30.678396",
         "longitude": "104.098021",
-        "iconPath": "/img/ico/boy_ss.png",
+        "iconPath": "/img/ico/ss.png",
         "width": "30",
         "height": "30",
         "img": [
@@ -473,7 +473,7 @@ module.exports.map = [
         "name": "学生公寓13号楼",
         "latitude": "30.677778",
         "longitude": "104.100134",
-        "iconPath": "/img/ico/boy_ss.png",
+        "iconPath": "/img/ico/ss.png",
         "width": "30",
         "height": "30",
         "img": [
@@ -485,7 +485,7 @@ module.exports.map = [
         "name": "学生公寓14号楼",
         "latitude": "30.678041",
         "longitude": "104.099533",
-        "iconPath": "/img/ico/girl_ss.png",
+        "iconPath": "/img/ico/ss.png",
         "width": "30",
         "height": "30",
         "img": [
@@ -497,7 +497,7 @@ module.exports.map = [
         "name": "学生公寓15号楼",
         "latitude": "30.678571",
         "longitude": "104.098622",
-        "iconPath": "/img/ico/girl_ss.png",
+        "iconPath": "/img/ico/ss.png",
         "width": "30",
         "height": "30",
         "img": [
@@ -510,7 +510,7 @@ module.exports.map = [
         "name": "学生公寓16号楼",
         "latitude": "30.678405",
         "longitude": "104.097398",
-        "iconPath": "/img/ico/girl_ss.png",
+        "iconPath": "/img/ico/ss.png",
         "width": "30",
         "height": "30",
         "img": [
@@ -523,7 +523,7 @@ module.exports.map = [
         "name": "学生公寓17号楼",
         "latitude": "30.678581",
         "longitude": "104.097854",
-        "iconPath": "/img/ico/girl_ss.png",
+        "iconPath": "/img/ico/ss.png",
         "width": "30",
         "height": "30",
         "img": [
@@ -535,7 +535,7 @@ module.exports.map = [
         "name": "学生公寓18号楼",
         "latitude": "30.678756",
         "longitude": "104.098412",
-        "iconPath": "/img/ico/boy_ss.png",
+        "iconPath": "/img/ico/ss.png",
         "width": "30",
         "height": "30",
         "img": [
@@ -555,8 +555,8 @@ module.exports.map = [
         "latitude": "30.674221",
         "longitude": "104.103793",
         "iconPath": "/img/ico/xm.png",
-        "width": "30",
-        "height": "30",
+        "width": "40",
+        "height": "40",
         "img": [
           "校园导览/校门/北门.jpg"
         ],
@@ -567,8 +567,8 @@ module.exports.map = [
         "latitude": "30.673067",
         "longitude": "104.099453",
         "iconPath": "/img/ico/xm.png",
-        "width": "30",
-        "height": "30",
+        "width": "40",
+        "height": "40",
         "img": [
           "校园导览/校门/东门.jpg"
         ],
