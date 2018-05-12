@@ -554,7 +554,7 @@ module.exports.map = [
         "name": "校医院",
         "latitude": "30.674221",
         "longitude": "104.103793",
-        "iconPath": "/img/ico/xm.png",
+        "iconPath": "/img/ico/Hospital.png",
         "width": "40",
         "height": "40",
         "img": [
@@ -566,7 +566,7 @@ module.exports.map = [
         "name": "电子科大宾馆",
         "latitude": "30.673067",
         "longitude": "104.099453",
-        "iconPath": "/img/ico/xm.png",
+        "iconPath": "/img/ico/Hotel.png",
         "width": "40",
         "height": "40",
         "img": [
