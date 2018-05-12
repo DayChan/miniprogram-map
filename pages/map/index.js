@@ -12,7 +12,8 @@ Page({
     isSelectedBuildType: 0,
     controls: [],
     imgCDN: app.imgCDN,
-    islocation: true
+    islocation: true,
+    clickchar:"⇓",    //点击横栏的下和上
   },
   onLoad: function () {
     wx.showShareMenu({
@@ -52,14 +53,38 @@ Page({
     }
   },
   regionchange(e) {
-    console.log(e.type)
+    //console.log(e.type)
+    /*//if (!this.data.fullscreen) {
+      if(e.type == "end"){
+        this.setData({ fullscreen: !this.data.fullscreen })
+        if (this.data.fullscreen) {
+          this.setControls(this.data.windowWidth, this.data.windowHeight - 54)
+          this.setData({
+            clickchar: "⇑"
+          })
+        } else {
+          this.setControls(this.data.windowWidth, this.data.windowHeight / 2)
+          this.setData({
+            clickchar: "⇓"
+          })
+        } 
+        //移动地图事件
+    // } 
+      }*/
   },
   markertap(e) {
-    // 选中 其对应的框
+    // 选中其对应的框
     this.setData({
       isSelectedBuild: e.markerId
     })
-
+    if (this.data.fullscreen) {
+      this.setData({ fullscreen: !this.data.fullscreen })
+      this.setControls(this.data.windowWidth, this.data.windowHeight / 2)
+      this.setData({
+        clickchar: "⇓"
+      })
+      //点击坐标点事件
+    } 
     console.log("e.markerId", e.markerId)
   },
   controltap(e) {
@@ -73,7 +98,7 @@ Page({
       console.log("e.controlId", e.controlId)
     }
   },
-  location: function () {
+/*  location: function () {
     var _this = this
     wx.getLocation({
       type: 'wgs84', // 默认为 wgs84 返回 gps 坐标，gcj02 返回可用于 wx.openLocation 的坐标  
@@ -87,15 +112,24 @@ Page({
       }
     })
   },
+  */
   clickButton: function (e) {
     //console.log(this.data.fullscreen)
+    console.log(e)
     //打印所有关于点击对象的信息
     this.setData({ fullscreen: !this.data.fullscreen })
     if (this.data.fullscreen) {
-      this.setControls(this.data.windowWidth, this.data.windowHeight - 25)
+      this.setControls(this.data.windowWidth, this.data.windowHeight - 54)
+      this.setData({
+        clickchar: "⇑"
+      })
     } else {
       this.setControls(this.data.windowWidth, this.data.windowHeight / 2)
-    }
+      this.setData({
+        clickchar: "⇓"
+      })
+    } 
+    //景观按钮点击事件
   },
   changePage: function (event) {
     this.setData({
@@ -104,7 +138,7 @@ Page({
     });
 
   },
-  // 修改控键位置
+  // 修改搜索和定位的位置
   setControls: function (width, height) {
     this.setData({
       controls: [{
@@ -116,7 +150,7 @@ Page({
           width: 40,
           height: 40
         },
-        clickable: true
+        clickable: true //设置搜索按钮位置
       }, {
         id: -2,
         iconPath: '/img/location.png',
@@ -126,7 +160,7 @@ Page({
           width: 40,
           height: 40
         },
-        clickable: true
+        clickable: true //设置定位按钮位置
       }]
     })
 
