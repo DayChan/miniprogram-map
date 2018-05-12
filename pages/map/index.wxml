@@ -8,10 +8,20 @@
     </view><!-- 顶部滑动标签 -->
   </scroll-view><!-- 滑动功能 -->
 
-  <map latitude="{{latitude}}" longitude="{{longitude}}"  scale="{{buildlData[isSelectedBuildType].scale}}" bindcontroltap="controltap" markers="{{buildlData[isSelectedBuildType].data}}" bindmarkertap="markertap" bindregionchange="regionchange"   include-points="{{buildlData[isSelectedBuildType].data}}"  show-location="{{islocation? 'true': 'false'}}" controls="{{controls}}" style="width: auto; height:{{fullscreen ? 89 : 48}}vh; background-color: #fff;">
+  <map id="map1" 
+   latitude="{{latitude}}" longitude="{{longitude}}"  
+   scale="{{buildlData[isSelectedBuildType].scale}}" 
+   bindcontroltap="controltap" 
+   markers="{{buildlData[isSelectedBuildType].data}}" 
+   bindmarkertap="markertap" 
+   bindregionchange="regionchange"   
+   include-points="{{buildlData[isSelectedBuildType].data}}"  
+   show-location="{{islocation? 'true': 'false'}}"
+   controls="{{controls}}" 
+   style="width: auto; height:{{fullscreen ? 89 : 48}}vh; background-color: #fff;">
   </map><!-- 地图 -->
 
-  <button bindtap="clickButton" style="border-radius: 0;background-color: #fff;">
+  <button catchtap="clickButton" style="border-radius: 0;background-color: #fff;">
     共有{{buildlData[isSelectedBuildType].data.length}}个景观 {{clickchar}}
   </button> <!-- 分割线 9vh--> 
 
