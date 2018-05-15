@@ -14,6 +14,8 @@ Page({
     imgCDN: app.imgCDN,
     islocation: true,
     clickchar:"⇓",    //点击横栏的下和上
+    num:0,
+    lastlongitude: 104.096991
   },
   onLoad: function () {
     wx.showShareMenu({
@@ -52,13 +54,42 @@ Page({
       }
     }
   },
+  ifChangeRegion: function () {
+    var that = this;
+    var curLatitude = 0;
+    var curLongitude = 0;
+    this.mapCtx = wx.createMapContext("map1");
+    this.mapCtx.getCenterLocation({
+      success: function (res) {
+        curLatitude = res.longitude;
+        curLongitude = res.latitude;
+      }
+    })
+    console.log("n:",curLongitude);
+    if (curLongitude == this.lastlongitude) {
+      this.setData({
+        lastlongitude: curLongitude
+      });
+      return 1;
+    } else {
+      this.setData({
+        lastlongitude: curLongitude
+      });
+      return 0;
+    }
+  },
   regionchange(e) {
-    //console.log(e.type)
-    /*//if (!this.data.fullscreen) {
+    console.log(e.type)
+    console.log(e)
+    this.setData({
+      num: this.data.num+1
+    })
+    console.log(this.data.num)
+    /*if (!this.data.fullscreen) {
       if(e.type == "end"){
         this.setData({ fullscreen: !this.data.fullscreen })
         if (this.data.fullscreen) {
-          this.setControls(this.data.windowWidth, this.data.windowHeight - 54)
+          this.setControls(this.data.windowWidth, this.data.windowHeight -54)
           this.setData({
             clickchar: "⇑"
           })
@@ -69,8 +100,20 @@ Page({
           })
         } 
         //移动地图事件
-    // } 
+     } 
       }*/
+    if(e.type == "end"){
+      if(!this.ifChangeRegion()){
+        
+        if (!this.data.fullscreen) {
+          this.setData({ fullscreen: !this.data.fullscreen })
+          this.setControls(this.data.windowWidth, this.data.windowHeight - 54)
+          this.setData({
+            clickchar: "⇑"
+          })
+        }
+      }
+    }
   },
   markertap(e) {
     // 选中其对应的框
@@ -165,4 +208,5 @@ Page({
     })
 
   }
+  
 })

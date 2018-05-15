@@ -10,7 +10,7 @@
   <view class="building">
     <view class="buildingName">{{building.name}}</view>
     <navigator class="nav_map" url='polyline?latitude={{building.latitude}}&longitude={{building.longitude}}'>
-      <image src="/img/location.svg"> </image>
+      <image src="/img/location2.png"> </image>
     </navigator>
   </view>
 
