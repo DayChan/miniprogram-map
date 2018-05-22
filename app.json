@@ -3,7 +3,11 @@
     "pages/map/index",
     "pages/map/details",
     "pages/map/polyline",
-    "pages/map/search"
+    "pages/map/search",
+    "pages/map/find/find",
+    "pages/map/find/detail/toilet",
+    "pages/map/find/detail/store",
+    "pages/map/find/detail/guard"   
   ],
   "window": {
     "backgroundTextStyle": "light",
