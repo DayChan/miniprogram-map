@@ -11,7 +11,7 @@ Page({
     isSelectedBuild: 0,
     isSelectedBuildType: 0,
     controls: [],
-    imgCDN: app.imgCDN,
+    imgCDN: app.imgCDN1,
     islocation: true,
     clickchar:"⇓",    //点击横栏的下和上
     num:0,
@@ -79,7 +79,7 @@ Page({
     }
   },
   regionchange(e) {
-    console.log(e.type)
+    /*console.log(e.type)
     console.log(e)
     this.setData({
       num: this.data.num+1
@@ -113,7 +113,7 @@ Page({
           })
         }
       }
-    }
+    }*/
   },
   markertap(e) {
     // 选中其对应的框

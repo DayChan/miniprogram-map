@@ -24,7 +24,7 @@ module.exports.map = [
         "width": "40",
         "height": "40",
         "img": [
-          "miniImage/风华餐厅.png"
+          "风华餐厅.png"
         ],
         "description": "a"
       },
@@ -36,7 +36,7 @@ module.exports.map = [
         "width": "40",
         "height": "40",
         "img": [
-          "miniImage/阳光.png"
+          "阳光.png"
         ],
         "description": "a"
       },
@@ -49,8 +49,8 @@ module.exports.map = [
         "width": "40",
         "height": "40",
         "img": [
-          "miniImage/学生活动中心.png",
-          "miniImage/学生活动中心2.png"
+          "学生活动中心.png",
+          "学生活动中心2.png"
         ],
         "description": "　a"
       },
@@ -62,7 +62,7 @@ module.exports.map = [
         "width": "40",
         "height": "40",
         "img": [
-          "miniImage/阳光.png"
+          "阳光.png"
         ],
         "description": "a"
       },
@@ -75,7 +75,7 @@ module.exports.map = [
         "width": "40",
         "height": "40",
         "img": [
-          "miniImage/阳光.png"
+          "阳光.png"
         ],
         "description": "a"
       },
@@ -87,7 +87,7 @@ module.exports.map = [
         "width": "40",
         "height": "40",
         "img": [
-          "miniImage/阳光.png"
+          "阳光.png"
         ],
         "description": "a"
       }
@@ -105,7 +105,7 @@ module.exports.map = [
         "width": "40",
         "height": "40",
         "img": [
-          "miniImage/一教.png"
+          "一教.png"
         ],
         "description": "　1"
       },
@@ -117,7 +117,7 @@ module.exports.map = [
         "width": "40",
         "height": "40",
         "img": [
-          "miniImage/二教.png"
+          "二教.png"
         ],
         "description": "a"
       },
@@ -129,8 +129,8 @@ module.exports.map = [
         "width": "40",
         "height": "40",
         "img": [
-          "miniImage/三教.png",
-          "miniImage/三教2.png"
+          "三教.png",
+          "三教2.png"
         ],
         "description": "　3号教学楼"
       },
@@ -142,7 +142,7 @@ module.exports.map = [
         "width": "40",
         "height": "40",
         "img": [
-          "miniImage/阳光.png"
+          "阳光.png"
         ],
         "description": "　a"
       },
@@ -154,7 +154,7 @@ module.exports.map = [
         "width": "40",
         "height": "40",
         "img": [
-          "miniImage/逸夫楼.png"
+          "逸夫楼.png"
         ],
         "description": "　a"
       }
@@ -172,8 +172,8 @@ module.exports.map = [
         "width": "40",
         "height": "40",
         "img": [
-          "miniImage/主楼.png",
-          "miniImage/主楼2.png"
+          "主楼.png",
+          "主楼2.png"
         ],
         "description": "a"
       },
@@ -197,7 +197,7 @@ module.exports.map = [
         "width": "40",
         "height": "40",
         "img": [
-          "miniImage/游泳中心.png"
+          "游泳中心.png"
         ],
         "description": "学生公寓11号楼"
       }
@@ -227,8 +227,8 @@ module.exports.map = [
         "width": "40",
         "height": "40",
         "img": [
-          "miniImage/通信楼1.png",
-          "miniImage/通信楼2.png"
+          "通信楼1.png",
+          "通信楼2.png"
         ],
         "description": " "
       },
@@ -240,7 +240,7 @@ module.exports.map = [
         "width": "40",
         "height": "40",
         "img": [
-          "miniImage/继续教育学院.png"
+          "继续教育学院.png"
         ],
         "description": "a"
       },
@@ -252,7 +252,7 @@ module.exports.map = [
         "width": "40",
         "height": "40",
         "img": [
-          "miniImage/微固.png"
+          "微固.png"
         ],
         "description": " a"
       },
@@ -264,7 +264,7 @@ module.exports.map = [
         "width": "40",
         "height": "40",
         "img": [
-          "miniImage/继续教育学院.png"
+          "继续教育学院.png"
         ],
         "description": "a"
       },
@@ -276,8 +276,8 @@ module.exports.map = [
         "width": "40",
         "height": "40",
         "img": [
-          "miniImage/物理学院.png",
-          "miniImage/物理学院2.png"
+          "物理学院.png",
+          "物理学院2.png"
         ],
         "description": "a"
       },
@@ -289,8 +289,8 @@ module.exports.map = [
         "width": "40",
         "height": "40",
         "img": [
-          "miniImage/信软楼.png",
-          "miniImage/信软楼2.png"
+          "信软楼.png",
+          "信软楼2.png"
         ],
         "description": " a"
       }
@@ -308,7 +308,7 @@ module.exports.map = [
         "width": "40",
         "height": "40",
         "img": [
-          "miniImage/信软楼.png"
+          "信软楼.png"
         ],
         "description": "a"
       },
@@ -320,7 +320,7 @@ module.exports.map = [
         "width": "40",
         "height": "40",
         "img": [
-          "miniImage/信软楼.png"
+          "信软楼.png"
         ],
         "description": "s"
       },
@@ -332,7 +332,7 @@ module.exports.map = [
         "width": "40",
         "height": "40",
         "img": [
-          "miniImage/网球场.png"
+          "网球场.png"
         ],
         "description": "a"
       },
@@ -344,7 +344,7 @@ module.exports.map = [
         "width": "40",
         "height": "40",
         "img": [
-          "miniImage/篮球场.png"
+          "篮球场.png"
         ],
         "description": " a "
       },
@@ -356,9 +356,9 @@ module.exports.map = [
         "width": "40",
         "height": "40",
         "img": [
-          "miniImage/游泳中心.png",
-          "miniImage/游泳中心2.png",
-          "miniImage/游泳中心3.png"
+          "游泳中心.png",
+          "游泳中心2.png",
+          "游泳中心3.png"
         ],
         "description": "s"
       }
@@ -376,8 +376,8 @@ module.exports.map = [
         "width": "30",
         "height": "30",
         "img": [
-          "miniImage/欣1.png",
-          "miniImage/欣1（2）.png"
+          "欣1.png",
+          "欣1（2）.png"
         ],
         "description": "欣苑1栋"
       },
@@ -389,7 +389,7 @@ module.exports.map = [
         "width": "30",
         "height": "30",
         "img": [
-          "miniImage/欣2.png"
+          "欣2.png"
         ],
         "description": "欣苑2栋"
       },
@@ -401,8 +401,8 @@ module.exports.map = [
         "width": "30",
         "height": "30",
         "img": [
-          "miniImage/欣3.png",
-          "miniImage/欣3（2）.png"
+          "欣3.png",
+          "欣3（2）.png"
         ],
         "description": "欣苑3栋"
       },
@@ -414,8 +414,8 @@ module.exports.map = [
         "width": "30",
         "height": "30",
         "img": [
-          "miniImage/欣4.png",
-          "miniImage/欣4（2）.png"
+          "欣4.png",
+          "欣4（2）.png"
         ],
         "description": "欣苑4栋"
       },
@@ -427,8 +427,8 @@ module.exports.map = [
         "width": "30",
         "height": "30",
         "img": [
-          "miniImage/欣5.png",
-          "miniImage/欣5（2）.png"
+          "欣5.png",
+          "欣5（2）.png"
         ],
         "description": "欣苑5栋"
       },
@@ -440,7 +440,7 @@ module.exports.map = [
         "width": "30",
         "height": "30",
         "img": [
-          "miniImage/游泳中心.png"
+          "游泳中心.png"
         ],
         "description": "欣苑6栋"
       },
@@ -452,7 +452,7 @@ module.exports.map = [
         "width": "30",
         "height": "30",
         "img": [
-          "miniImage/游泳中心.png"
+          "游泳中心.png"
         ],
         "description": "学生公寓11号楼"
       },
@@ -464,8 +464,8 @@ module.exports.map = [
         "width": "30",
         "height": "30",
         "img": [
-          "miniImage/12栋.png",
-          "miniImage/12栋2.png"
+          "12栋.png",
+          "12栋2.png"
         ],
         "description": "学生公寓12号楼"
       },
@@ -477,7 +477,7 @@ module.exports.map = [
         "width": "30",
         "height": "30",
         "img": [
-          "miniImage/13栋.png"
+          "13栋.png"
         ],
         "description": "学生公寓13号楼"
       },
@@ -489,7 +489,7 @@ module.exports.map = [
         "width": "30",
         "height": "30",
         "img": [
-          "miniImage/14栋.png"
+          "14栋.png"
         ],
         "description": "学生公寓14号楼"
       },
@@ -501,8 +501,8 @@ module.exports.map = [
         "width": "30",
         "height": "30",
         "img": [
-          "miniImage/15栋.png",
-          "miniImage/15栋2.png"
+          "15栋.png",
+          "15栋2.png"
         ],
         "description": "学生公寓15号楼"
       },
@@ -514,8 +514,8 @@ module.exports.map = [
         "width": "30",
         "height": "30",
         "img": [
-          "miniImage/16栋.png",
-          "miniImage/16栋2.png"
+          "16栋.png",
+          "16栋2.png"
         ],
         "description": "学生公寓16号楼"
       },
@@ -527,7 +527,7 @@ module.exports.map = [
         "width": "30",
         "height": "30",
         "img": [
-          "miniImage/17栋.png"
+          "17栋.png"
         ],
         "description": "学生公寓17号楼"
       },
@@ -539,8 +539,8 @@ module.exports.map = [
         "width": "30",
         "height": "30",
         "img": [
-          "miniImage/18栋.png",
-          "miniImage/18栋2.png"
+          "18栋.png",
+          "18栋2.png"
         ],
         "description": "学生公寓18号楼"
       }
