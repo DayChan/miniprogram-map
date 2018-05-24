@@ -1,0 +1,37 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.motto{
+    margin-top: 50rpx;
+    font-size: 50rpx;
+}
+.button{
+    margin-top: 100rpx;
+    border: 2rpx solid #405f80;
+    border-radius:10rpx;
+    height: 60rpx;
+    width:300rpx;
+    text-align: center;
+}
+.button-text1{
+    font-size: 40rpx;
+    color: #405f80;
+
+}
+.button-text2{
+    font-size: 40rpx;
+    color: #405f80;
+
+}
+.button-text3{
+    font-size: 40rpx;
+    color: #405f80;
+
+}
+
+page{
+    height: 100%;
+    background-color:#b3d4db;
+}

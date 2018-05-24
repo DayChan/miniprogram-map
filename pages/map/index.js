@@ -85,7 +85,7 @@ Page({
       num: this.data.num+1
     })
     console.log(this.data.num)
-    /*if (!this.data.fullscreen) {
+    if (!this.data.fullscreen) {
       if(e.type == "end"){
         this.setData({ fullscreen: !this.data.fullscreen })
         if (this.data.fullscreen) {
@@ -101,7 +101,7 @@ Page({
         } 
         //移动地图事件
      } 
-      }*/
+      }
     if(e.type == "end"){
       if(!this.ifChangeRegion()){
         
@@ -137,7 +137,11 @@ Page({
       })
     } else if (e.controlId == -2) {
       this.location()
-    } else {
+    } else if (e.controlId == -3) {
+      wx.navigateTo({
+        url: 'find/find'
+      })
+    }else {
       console.log("e.controlId", e.controlId)
     }
   },
@@ -174,6 +178,7 @@ Page({
     } 
     //景观按钮点击事件
   },
+
   changePage: function (event) {
     this.setData({
       isSelectedBuildType: event.currentTarget.id,
@@ -204,9 +209,18 @@ Page({
           height: 40
         },
         clickable: true //设置定位按钮位置
+        }, {
+          id: -3,
+          iconPath: '/img/about.png',
+          position: {
+            left: width - 50,
+            top: height - 155,
+            width: 40,
+            height: 40
+          },
+        clickable: true //跳转至find部分
       }]
     })
 
-  }
-  
+  }  
 })
