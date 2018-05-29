@@ -9,5 +9,6 @@ module.exports = {
   //地图更新地址，用于热修补，无需每次都提交审核
   updateUrl: "https://www.qq.com/json.json",
   //图片CDN域名
-  imgCDN: "https://www.daychan.house/"
+  imgCDN: "http://www.chenduoru.xyz/mini/",
+  imgCDN1: "http://www.chenduoru.xyz/mini1/"
 }
