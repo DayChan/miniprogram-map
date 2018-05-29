@@ -1,4 +1,4 @@
-//获取应用实例
+///获取应用实例
 var app = getApp();
 Page({
   data: {
@@ -78,7 +78,7 @@ Page({
       return 0;
     }
   },
-  regionchange(e) {
+  /*regionchange(e) {
     console.log(e.type)
     console.log(e)
     this.setData({
@@ -114,7 +114,7 @@ Page({
         }
       }
     }
-  },
+  },*/
   markertap(e) {
     // 选中其对应的框
     this.setData({

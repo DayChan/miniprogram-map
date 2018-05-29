@@ -1,14 +1,12 @@
 <view class="container">
   <text class="motto">您需要什么帮助</text>
   <view class="button" bindtap="onTap1">
-        <text class="button-text1">寻找最近厕所</text>
+        <text class="button-text">寻找周围厕所</text>
     </view>
   <view class="button" bindtap="onTap2">
-        <text class="button-text2">寻找最近超市</text>
+        <text class="button-text">寻找周围超市</text>
     </view>
   <view class="button" bindtap="onTap3">
-        <text class="button-text3">寻找保卫处</text>
+        <text class="button-text">呼叫保卫处</text>
     </view>
-  
-
-  </view>
+</view>

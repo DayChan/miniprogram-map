@@ -15,22 +15,16 @@
     width:300rpx;
     text-align: center;
 }
-.button-text1{
+.button-text{
     font-size: 40rpx;
+    text-align: center;
     color: #405f80;
-
 }
-.button-text2{
-    font-size: 40rpx;
-    color: #405f80;
-
-}
-.button-text3{
-    font-size: 40rpx;
-    color: #405f80;
-
-}
-
+/*.button-img{
+    width: 25%;
+    height: 80px;
+    float: left;
+}*/
 page{
     height: 100%;
     background-color:#b3d4db;

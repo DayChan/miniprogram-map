@@ -22,8 +22,8 @@ Page({
     });
   },
   onTap3: function () {
-    wx.navigateTo({
-      url: 'detail/guard',
-    });
+    wx.makePhoneCall({
+      phoneNumber: '83202241'
+    })
   },
 })

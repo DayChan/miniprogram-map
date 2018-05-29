@@ -10,6 +10,7 @@ module.exports.introduce = {
   "description": "",
   "mapCopyright": "招生宣传服务中心"
 }
+
 //学校地图数据
 module.exports.map = [
   {
