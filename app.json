@@ -7,7 +7,7 @@
     "pages/map/find/find",
     "pages/map/find/detail/toilet",
     "pages/map/find/detail/store",
-    "pages/map/find/detail/guard"
+    "pages/map/find/detail/sbus"
   ],
   "window": {
     "backgroundTextStyle": "light",

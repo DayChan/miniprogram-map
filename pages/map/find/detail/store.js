@@ -36,7 +36,7 @@ Page({
             width: 40,
             height: 40,
             iconPath: "/img/store.png",
-            title: "校园超市（仅可使用校园卡结账）\n开放时间：7:00-22:00"
+            title: "校园超市（仅可使用校园卡结账）\n开放时间：8:45-22:45"
           },
           {
             id: 2,
@@ -53,7 +53,7 @@ Page({
             width: 40,
             height: 40,
             iconPath: "/img/store.png",
-            title: "校园超市（仅可使用校园卡结账）\n开放时间：7:00-22:00"
+            title: "校园超市（仅可使用校园卡结账）\n开放时间：8:45-22:45"
           },
           {
             id: 4,
@@ -62,7 +62,7 @@ Page({
             width: 40,
             height: 40,
             iconPath: "/img/store.png",
-            title: "校园超市（仅可使用校园卡结账）\n开放时间：7:00-22:00"          
+            title: "校园超市（仅可使用校园卡结账）\n开放时间：8:45-22:45"          
           }],
         })
       }
