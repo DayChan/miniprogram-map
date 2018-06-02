@@ -169,7 +169,7 @@ Page({
         }
         else if (e.markerId == 9) {
           wx.navigateTo({
-            url: '../../polyline?latitude=30.6756607&longitude=104.100432',
+            url: '../../polyline?latitude=30.6756607&longitude=104.102218',
           })
         }
       },
